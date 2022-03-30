@@ -1,0 +1,32 @@
+.dice {
+    --dice-size:50px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 6px 8px 8px;
+    width: var(--dice-size);
+    height: var(--dice-size);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dote{
+    --dote-size:12px;
+    width: var(--dote-size);
+    height: var(--dote-size);
+    background-color: #2b283a;
+    border-radius: 50%;
+    z-index: 999;
+    display: block;
+    margin-top: 2px;
+}
+
+.dote:nth-of-type(1) , .dote:nth-of-type(2){
+    margin-top: 0px;
+}

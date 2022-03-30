@@ -1,0 +1,10 @@
+.scoreBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    top: -28px;
+    padding: 0px 5px;
+}
